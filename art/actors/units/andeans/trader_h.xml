@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/llama.dae</mesh>
+			<props>
+				<prop actor="props/units/horse/donkey_pack_01.xml" attachpoint="rider" />
+			</props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Withe">
+      <textures>
+        <texture file="skeletal/llama_w.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>default.xml</material>
+</actor>
